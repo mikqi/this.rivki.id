@@ -6,12 +6,8 @@
           <p class='u-p--hero mb5'>
             Hello,
           </p>
-          <h1 class="hero-heading ma0">
-            I'm Muhammad Rivki,
-          </h1>
-          <h2 class="ma0">
-            currently i'm a Frontend Engineer at 
-            <a href="https://bukalapak.com" title="Bukalapak">Bukalapak</a>
+          <h1 class="hero-heading ma0">I'm Muhammad Rivki,</h1>
+          <h2 class="ma0">currently i'm a Frontend Engineer at&nbsp;<a href="https://bukalapak.com" title="Bukalapak">Bukalapak</a>
           </h2>
           <h2 class="ma0">and i love
             <span

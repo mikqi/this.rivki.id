@@ -42,6 +42,9 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
+  ],
   css: [
     {
       src: '~assets/scss/skeleton.scss',

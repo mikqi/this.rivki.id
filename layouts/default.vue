@@ -2,18 +2,18 @@
   <div>
     <!--<NavBar />-->
     <nuxt/>
-    <Footer/>
+    <Copyright/>
   </div>
 </template>
 
 <script>
   import NavBar from '~components/Nav/Nav.vue'
-  import Footer from '~components/Footer.vue'
+  import Copyright from '~components/Footer.vue'
 
   export default {
     components: {
       NavBar,
-      Footer
+      Copyright
     }
   }
 </script>

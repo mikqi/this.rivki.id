@@ -25,8 +25,12 @@
 </template>
 
 <script>
-  if (process.BROWSER_BUILD) {
-    require('./typing')
+  export default {
+    name: 'home',
+    mounted: () => {
+      require('./typing')
+      runTextRotator()
+    }
   }
 </script>
 

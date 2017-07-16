@@ -43,7 +43,7 @@ class TxtRotate {
   }
 }
 
-window.onload = function () {
+window.runTextRotator = function () {
   const elements = document.getElementsByClassName('txt-rotate')
   for (let i = 0; i < elements.length; i++) {
     const toRotate = elements[i].getAttribute('data-rotate')

@@ -4,7 +4,7 @@
       <ul class="c-primary-nav">
         <li><nuxt-link class="js-nav-link" to="/">Home</nuxt-link></li>
         <li><nuxt-link class="js-nav-link" to="about">About page</nuxt-link></li>
-        <li><nuxt-link class="js-nav-link" to="portfolio">Portfolio</nuxt-link></li>
+        <!-- <li><nuxt-link class="js-nav-link" to="portfolio">Portfolio</nuxt-link></li> -->
         <li><a class="js-nav-link" href="http://blog.rivki.id/">Blog</a></li>
       </ul>
     </nav>
@@ -22,17 +22,20 @@
 </template>
 
 <script>
-  if (process.BROWSER_BUILD) {
-    require('./Nav')
-    const navLinks = document.querySelectorAll('.js-nav-link')
-    const navTrigger = document.querySelector('.js-nav-trigger')
+  export default {
+    mounted() {
+      require('./Nav')
+      const navLinks = document.querySelectorAll('.js-nav-link')
+      const navTrigger = document.querySelector('.js-nav-trigger')
 
-    navLinks.forEach((nav) =>
-      nav.addEventListener('click', () =>
-        navTrigger.click()
+      navLinks.forEach((nav) =>
+        nav.addEventListener('click', () =>
+          navTrigger.click()
+        )
       )
-    )
+    }
   }
+    
 
 </script>
 

@@ -14,9 +14,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' },
       { name: 'application-name', content: 'Hello Mikqi' },
-      { name: 'description', content: 'Hello, i\'m Muhammad Rivki. A Frontend Engineer currently living in Jakarta, Indonesia' },
+      { hid: 'description', name: 'description', content: 'Hello, i\'m Muhammad Rivki. A Frontend Engineer currently living in Jakarta, Indonesia' },
       { property: 'og:title', content: 'Online Portfolio of Muhammad Rivki' },
       { property: 'og:url', content: 'http://this.rivki.id' },
       { property: 'og:descrition', content: 'Muhammad Rivki, a Frontend Engineer from Jakarta, Indonesia. who loves simplicity, create great looking web products and performance first.' },

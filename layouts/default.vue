@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!--<NavBar />-->
+    <NavBar />
     <nuxt/>
     <Copyright/>
   </div>

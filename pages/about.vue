@@ -16,13 +16,13 @@
           </p>
           
           <p class="u-p--hero">
-            My passionate is about Web Technologies such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more about Web. And FYI i always complain if my teammate created bad or ugly code/design. If you want to know more about me just say "Hi!" <a href="">here</a>.
+            My passionate is about Web Technologies such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me or discuss about our interests just say "Hi!" <a href="">here</a>.
           </p>
 
         </div>
       </div>
 
-      <div class="row u-full-width">
+      <div class="row u-full-width mb4">
         <div class="five columns">
           <h5 class="ma0 mb4"><em>– EXPERIENCES</em></h5>
 
@@ -60,30 +60,19 @@
               Semi Finalist Microsoft Imagine Cup Indonesia 2017
             </span>
             <br />
-            <small class="mt0">I built a marketing solution apps in Twitter. With codename <a href="http://sellution.azurewebsites.net/">Sellution</a> or Twikipedia.</small>
+            <small class="mt0">I built a marketing solution apps in Twitter. With codename <a href="http://sellution.azurewebsites.net/">Sellution</a> or <a href="http://twikipedia-apps.herokuapp.com">Twikipedia</a>.</small>
           </p>
 
           <!--IMAGINE CUP 2016-->
           <p class="u-p--hero lh0">
-            <small class="time"> April 2016</small>
-            <br />
-            <span>
-              World Semi Finalist Microsoft Imagine Cup 2016
-            </span>
-            <br />
-            <small class="mt0"></small>
-          </p>
-
-          <!--IMAGINE CUP 2016-->
-          <p class="u-p--hero lh0">
-            <small class="time"> May 2016</small>
+            <small class="time"> May 2015</small>
             <br />
             <span>
               1<sup>st</sup> Winner Microsoft Imagine Cup Indonesia 2016
             </span>
             <br />
             <small class="mt0">
-              We built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category.
+              We built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category. We won in first place in <a href="https://dailysocial.id/post/pemenang-imagine-cup-indonesia-2015">Indonesia</a> and get the chance to <a href="https://imagine.microsoft.com/en-us/Winner/2015WorldSemifinalists">world semifinals</a>.
             </small>
           </p>
 
@@ -92,10 +81,10 @@
             <small class="time"> April 2018</small>
             <br />
             <span>
-              Semi Finalist Microsoft Imagine Cup World Wide 2016
+              Nominator INAICTA 2014
             </span>
             <br />
-            <small class="mt0">Frontend Engineer</small>
+            <small class="mt0">We develop apps citizen journalism about crime. With codename <a href="http://if.unikom.ac.id/web/prestasi.php">Crimezone</a>. My role in team as a Frontend and UX.</small>
           </p>
         </div>
       </div>

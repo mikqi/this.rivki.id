@@ -5,7 +5,7 @@
         <li><nuxt-link class="js-nav-link" to="/">Home</nuxt-link></li>
         <li><nuxt-link class="js-nav-link" to="about">About page</nuxt-link></li>
         <!-- <li><nuxt-link class="js-nav-link" to="portfolio">Portfolio</nuxt-link></li> -->
-        <li><a class="js-nav-link" href="http://blog.rivki.id/">Blog</a></li>
+        <!-- <li><a class="js-nav-link" href="http://blog.rivki.id/">Blog</a></li> -->
       </ul>
     </nav>
 

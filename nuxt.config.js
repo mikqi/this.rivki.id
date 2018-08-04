@@ -13,6 +13,7 @@ module.exports = {
     title: 'This is Muhammad Rivki',
     meta: [
       { charset: 'utf-8' },
+      { name: 'google-site-verification', content: '0EwAgA6z9K0d-KmQ103WbSwl6CvBLa1rj0Ghfc8rrMY'},
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'application-name', content: 'Hello Mikqi' },
       { hid: 'description', name: 'description', content: 'Hello, i\'m Muhammad Rivki. A Frontend Engineer currently living in Jakarta, Indonesia' },
@@ -37,7 +38,7 @@ module.exports = {
     ],
     script: [
       {
-        src: 'http://zeptojs.com/zepto.min.js'
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js'
       }
     ]
   },

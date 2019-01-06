@@ -6,7 +6,7 @@
         <div class="three columns u-align-center mb5">
           <img
             class="avatar"
-            :src="AVA"
+            src="@/assets/img/ava.jpg"
           >
         </div>
         <div class="eight columns">
@@ -27,8 +27,8 @@
 
           <p class="u-p--hero">
             My passionate is about Web Technologies such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me or discuss about our interests just say "Hi!" <a href="">
-              here
-            </a>.
+              here.
+            </a>
           </p>
         </div>
       </div>
@@ -162,14 +162,3 @@
     }
   }
 </style>
-
-<script>
-// import AVA from '~static/ava.jpg'
-export default {
-  // data: () => {
-  //   return {
-  //     AVA
-  //   }
-  // }
-}
-</script>

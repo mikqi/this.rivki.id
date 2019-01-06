@@ -1,3 +1,7 @@
 module.exports = {
-  lintOnSave: false
+  lintOnSave: false,
+
+  pwa: {
+    themeColor: '#2199e8'
+  }
 }

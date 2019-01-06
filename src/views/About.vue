@@ -33,6 +33,7 @@
         </div>
       </div>
 
+      <!-- EXPERIENCES AND ACHIEVEMENTS -->
       <div class="row u-full-width mb4">
         <div class="five columns">
           <h5 class="ma0 mb4">
@@ -130,9 +131,48 @@
           </p>
         </div>
       </div>
+
+      <hr v-if="isProjects">
+
+      <!-- PROJECTS -->
+      <div
+        v-if="isProjects"
+        class="row u-full-width mb6 mt4"
+      >
+        <div class="twelve columns">
+          <h5 class="ma0 mb4">
+            <em>– PROJECTS</em>
+          </h5>
+          <!--BUKALAPAK.COM-->
+          <p class="u-p--hero lh0 mb-2">
+            <small class="time">
+              2016 - Today
+            </small>
+            <br>
+            <span>
+              PT. Bukalapak.com
+            </span>
+            <br>
+          </p>
+          <p class="mt2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus, animi nemo sint cupiditate, totam at, perspiciatis libero magni ab recusandae! Quasi suscipit, magnam cupiditate obcaecati similique officia quia nesciunt.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: 'About',
+  data () {
+    return {
+      isProjects: false
+    }
+  }
+}
+</script>
 
 <style scope>
   .avatar {

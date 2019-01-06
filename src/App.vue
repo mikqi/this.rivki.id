@@ -1,29 +1,22 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div>
+    <NavBar />
+    <router-view />
+    <Copyright />
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import NavBar from '@/components/Nav/Nav.vue'
+import Copyright from '@/components/Footer.vue'
+
+export default {
+  components: {
+    NavBar,
+    Copyright
   }
 }
-</style>
+</script>
+
+<style src="@/assets/css/main.css"></style>
+<style src="@/assets/scss/skeleton.scss" lang="scss"></style>

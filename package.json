@@ -1,7 +1,7 @@
 {
   "name": "this.rivki.id",
   "version": "1.0.0",
-  "description": "My exquisite Nuxt.js project",
+  "description": "Personal Site Project Using NuxtJS",
   "author": "Muhammad Rivki",
   "private": true,
   "scripts": {

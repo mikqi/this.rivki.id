@@ -81,6 +81,7 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
     [
       '@nuxtjs/google-analytics',
       {

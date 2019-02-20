@@ -90,6 +90,15 @@ module.exports = {
     ]
   ],
 
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://this.rivki.id',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    generate: true, // Enable me when using nuxt generate
+    exclude: ['/typing']
+  },
+
   /*
   ** Build configuration
   */

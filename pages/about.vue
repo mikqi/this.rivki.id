@@ -35,100 +35,185 @@
 
       <!-- EXPERIENCES AND ACHIEVEMENTS -->
       <div class="row u-full-width mb4">
-        <div class="five columns">
+        <div class="offset-by-one ten columns mb6">
           <h5 class="ma0 mb4">
-            <em>– EXPERIENCES</em>
+            <em>– WORKING EXPERIENCES</em>
           </h5>
 
-          <!--BUKALAPAK.COM-->
-          <p class="u-p--hero lh0">
-            <small class="time">
-              2016 - Today
-            </small>
-            <br>
-            <span>
+          <!--BUKALAPAK.COM FTL-->
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
+              Oct 2018 - Today
+            </div>
+            <div>
               PT. Bukalapak.com
-            </span>
-            <br>
-            <small class="mt0">
-              <em>Frontend Engineer</em>
-            </small>
-          </p>
+            </div>
+            <div>
+              <small class="mt0">
+                <em>Frontend Tribe Lead</em>
+              </small>
+            </div>
+            <div class="mt2">
+              <small>
+                Bukalapak use <a href="https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761">Spotify Engineering Culture</a> and on this position I focus to remove knowledge gap with other tribes and to keep my Tribe code quality is good.
+              </small>
+            </div>
+          </div>
+
+          <!--BUKALAPAK.COM FTL-->
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
+              Apr 2018 - Today
+            </div>
+            <div>
+              PT. Bukalapak.com
+            </div>
+            <div>
+              <small class="mt0">
+                <em>Frontend Engineer Squad Lead</em>
+              </small>
+            </div>
+            <div class="mt2">
+              <small>
+                As a lead i responsible to made my squad code quality better with code reviews and also handle for deployment my squad product to production with less bug.
+              </small>
+            </div>
+          </div>
+
+          <!--BUKALAPAK.COM-->
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
+              Oct 2016 - Today
+            </div>
+            <div>
+              PT. Bukalapak.com
+            </div>
+            <div>
+              <small class="mt0">
+                <em>Frontend Engineer</em>
+              </small>
+            </div>
+            <div class="mt2">
+              <small>
+                In Bukalapak I focus built and maintenance at seller side but before transactions such as <em>create product</em>, <em>product list</em> etc. I develop previously using jQuery and Coffescript, but now already use <a href="https://vuejs.org">VueJS</a>.
+              </small>
+            </div>
+          </div>
+
+          <!-- ShoutCap -->
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
+              Jul 2015 - Sep 2015
+            </div>
+            <div>
+              ShoutID
+            </div>
+            <div>
+              <small class="mt0">
+                <em>Frontend Engineer Internship</em>
+              </small>
+            </div>
+            <div class="mt2">
+              <small>
+                I develop iOS ShoutCap App using <a href="http://ionicframework.com">Ionic Frameworkd</a> and create a Profile, Voucher, Transactions and Create a Cap Views.
+              </small>
+            </div>
+          </div>
 
           <!--CODELABS.COM-->
-          <p class="u-p--hero lh0">
-            <small class="time">
-              2012 - 2016
-            </small>
-            <br>
-            <span>
-              Codelabs Unikom
-            </span>
-            <br>
-            <small class="mt0">
-              <em>Frontend Engineer</em>
-            </small>
-          </p>
+          <div class="u-p--hero lh0">
+            <div class="time">
+              Dec 2012 - Sep 2016
+            </div>
+            <div>
+              Unikom Codelabs Division
+            </div>
+            <div>
+              <small class="mt0">
+                <em>Fullstack Javascript</em>
+              </small>
+            </div>
+            <div class="mt2">
+              <small>
+                In Codelabs i do some reasearch for competition focus on Javascript technology and maintenance some internal websites.
+              </small>
+            </div>
+          </div>
         </div>
-        <div class="seven columns">
+
+
+        <!-- ACHIEVEMENTS -->
+        <div class="offset-by-one ten columns">
           <h5 class="ma0 mb4">
             <em>– ACHIEVEMENTS</em>
           </h5>
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
+              May 2018
+            </div>
+            <div>
+              Facebook F8 Hakcathon Participation
+            </div>
+            <div class="mt2">
+              <small>
+                I've invited by Facebook to become a participant F8 Hackathon in McEnery Convention Center, San Jose. There was three people in my team with one Backend, Frontend and Business Analyst. And of course the Frontend role is Me. We built an apps focus on helping a community you can check it <a href="https://devpost.com/software/komun-ally">here</a>.
+              </small>
+            </div>
+          </div>
 
-          <!--IMAGINE CUP 2018-->
-          <p class="u-p--hero lh0">
-            <small class="time">
+          <!--IMAGINE CUP 2017-->
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
               March 2017
-            </small>
-            <br>
-            <span>
+            </div>
+            <div>
               Semi Finalist Microsoft Imagine Cup Indonesia 2017
-            </span>
-            <br>
-            <small class="mt0">
-              I built a marketing solution apps in Twitter. With codename <a href="http://sellution.azurewebsites.net/">
-                Sellution
-              </a> or <a href="http://twikipedia-apps.herokuapp.com">
-                Twikipedia
-              </a>.
-            </small>
-          </p>
+            </div>
+            <div class="mt2">
+              <small>
+                I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets. With codename <a href="http://sellution.azurewebsites.net/"> Sellution
+                </a> or <a href="http://twikipedia-apps.herokuapp.com">
+                  Twikipedia
+                </a>.
+              </small>
+            </div>
+          </div>
 
-          <!--IMAGINE CUP 2016-->
-          <p class="u-p--hero lh0">
-            <small class="time">
+          <!--IMAGINE CUP 2015-->
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
               May 2015
-            </small>
-            <br>
-            <span>
+            </div>
+            <div>
               1<sup>st</sup> Winner Microsoft Imagine Cup Indonesia 2016
-            </span>
-            <br>
-            <small class="mt0">
-              We built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category. We won in first place in <a href="https://dailysocial.id/post/pemenang-imagine-cup-indonesia-2015">
-                Indonesia
-              </a> and get the chance to <a href="https://imagine.microsoft.com/en-us/Winner/2015WorldSemifinalists">
-                world semifinals
-              </a>.
-            </small>
-          </p>
+            </div>
+            <div class="mt2">
+              <small>
+                We built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category. We won in first place in <a href="https://dailysocial.id/post/pemenang-imagine-cup-indonesia-2015">
+                  Indonesia
+                </a> and get the chance to <a href="https://imagine.microsoft.com/en-us/Winner/2015WorldSemifinalists">
+                  world semifinals
+                </a>.
+              </small>
+            </div>
+          </div>
 
           <!--IMAGINE CUP 2018-->
-          <p class="u-p--hero lh0">
-            <small class="time">
+          <div class="u-p--hero lh0 mb4">
+            <div class="time">
               April 2018
-            </small>
-            <br>
-            <span>
+            </div>
+            <div>
               Nominator INAICTA 2014
-            </span>
-            <br>
-            <small class="mt0">
-              We develop apps citizen journalism about crime. With codename <a href="http://if.unikom.ac.id/web/prestasi.php">
-                Crimezone
-              </a>. My role in team as a Frontend and UX.
-            </small>
-          </p>
+            </div>
+            <div class="mt2">
+              <small>
+                We develop apps citizen journalism about crime. With codename <a href="http://if.unikom.ac.id/web/prestasi.php">
+                  Crimezone
+                </a>. My role in team as a Frontend and UX.
+              </small>
+            </div>
+          </div>
         </div>
       </div>
 

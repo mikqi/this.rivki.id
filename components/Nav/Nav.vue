@@ -15,7 +15,7 @@
             class="js-nav-link"
             to="about"
           >
-            About page
+            About
           </nuxt-link>
         </li>
         <!-- <li><nuxt-link class="js-nav-link" to="portfolio">Portfolio</nuxt-link></li> -->

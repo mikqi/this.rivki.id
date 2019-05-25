@@ -1,6 +1,11 @@
 <template>
   <section class="hero">
-    <div class="scroll-indicator" />
+    <div class="scroll-indicator">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMTYuMDAzIDE4LjYyNmw3LjA4MS03LjA4MUwyNSAxMy40NmwtOC45OTcgOC45OTgtOS4wMDMtOSAxLjkxNy0xLjkxNnoiLz48L3N2Zz4="
+        width="50"
+      >
+    </div>
     <div class="container u-full-width u-full-height mt7">
       <div class="section row u-full-width u-full-height">
         <div class="three columns u-align-center mb5">
@@ -11,12 +16,12 @@
         </div>
         <div class="eight columns">
           <h4 class="ma0">
-            MUHAMMAD RIVKI
+            Hello.
           </h4>
-          <h5><em>– A CURIOUS PERSON</em></h5>
+          <h5><em>– </em></h5>
 
           <p class="u-p--hero">
-            Hello my name is Muhammad Rivki. I'm a Frontend Engineer who loves simplicity, create great looking web products and performance first. Currently i live in Jakarta, Indonesia and now working at
+            I am Rivki, but my friend sometimes call me Ikki (e'ki). A Frontend Engineer who love simplicity, great performance in the good looking products that I made. Currently I am working at the most growing e-commerce company in Indonesia,
             <a
               href="https://bukalapak.com/"
               target="_blank"
@@ -26,7 +31,7 @@
           </p>
 
           <p class="u-p--hero">
-            My passionate is about Web Technologies such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me or discuss about our interests just say "Hi!" <a href="">
+            My passionate is about web technology such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me just say "Hi!" <a href="mailto:muhammad.rivki@live.com">
               here.
             </a>
           </p>
@@ -34,109 +39,114 @@
       </div>
 
       <!-- EXPERIENCES AND ACHIEVEMENTS -->
-      <div class="row u-full-width mb4">
+      <div class="row u-full-width mb6">
         <div class="offset-by-one ten columns mb6">
           <h5 class="ma0 mb4">
             <em>– WORKING EXPERIENCES</em>
           </h5>
+          <div class="row mb4">
+            <!--BUKALAPAK.COM FTL-->
+            <div class="six columns u-p--hero lh0 mb4">
+              <div class="time">
+                Oct 2018 - Today
+              </div>
+              <div>
+                PT. Bukalapak.com
+              </div>
+              <div>
+                <small class="mt0">
+                  <em>Frontend Tribe Lead</em>
+                </small>
+              </div>
+              <div class="mt2">
+                <small>
+                  Bukalapak use <a href="https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761">Spotify Engineering Culture</a> and on this position I focus to remove knowledge gap with other tribes and to keep my Tribe code quality is good.
+                </small>
+              </div>
+            </div>
 
-          <!--BUKALAPAK.COM FTL-->
-          <div class="u-p--hero lh0 mb4">
-            <div class="time">
-              Oct 2018 - Today
-            </div>
-            <div>
-              PT. Bukalapak.com
-            </div>
-            <div>
-              <small class="mt0">
-                <em>Frontend Tribe Lead</em>
-              </small>
-            </div>
-            <div class="mt2">
-              <small>
-                Bukalapak use <a href="https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761">Spotify Engineering Culture</a> and on this position I focus to remove knowledge gap with other tribes and to keep my Tribe code quality is good.
-              </small>
+            <!--BUKALAPAK.COM FTL-->
+            <div class="six columns u-p--hero lh0 mb4">
+              <div class="time">
+                Apr 2018 - Today
+              </div>
+              <div>
+                PT. Bukalapak.com
+              </div>
+              <div>
+                <small class="mt0">
+                  <em>Frontend Engineer Squad Lead</em>
+                </small>
+              </div>
+              <div class="mt2">
+                <small>
+                  As a lead i responsible to made my squad code quality better with code reviews and also handle for deployment my squad product to production with less bug.
+                </small>
+              </div>
             </div>
           </div>
 
-          <!--BUKALAPAK.COM FTL-->
-          <div class="u-p--hero lh0 mb4">
-            <div class="time">
-              Apr 2018 - Today
+          <div class="row mb4">
+            <!--BUKALAPAK.COM-->
+            <div class="six columns u-p--hero lh0 mb4">
+              <div class="time">
+                Oct 2016 - Today
+              </div>
+              <div>
+                PT. Bukalapak.com
+              </div>
+              <div>
+                <small class="mt0">
+                  <em>Frontend Engineer</em>
+                </small>
+              </div>
+              <div class="mt2">
+                <small>
+                  In Bukalapak I focus built and maintenance at seller side but before transactions such as <em>create product</em>, <em>product list</em> etc. I develop previously using jQuery and Coffescript, but now already use <a href="https://vuejs.org">VueJS</a>.
+                </small>
+              </div>
             </div>
-            <div>
-              PT. Bukalapak.com
-            </div>
-            <div>
-              <small class="mt0">
-                <em>Frontend Engineer Squad Lead</em>
-              </small>
-            </div>
-            <div class="mt2">
-              <small>
-                As a lead i responsible to made my squad code quality better with code reviews and also handle for deployment my squad product to production with less bug.
-              </small>
+
+            <!-- ShoutCap -->
+            <div class="six columns u-p--hero lh0 mb4">
+              <div class="time">
+                Jul 2015 - Sep 2015
+              </div>
+              <div>
+                ShoutID
+              </div>
+              <div>
+                <small class="mt0">
+                  <em>Frontend Engineer Intern</em>
+                </small>
+              </div>
+              <div class="mt2">
+                <small>
+                  I develop iOS ShoutCap App using <a href="http://ionicframework.com">Ionic Framework</a> and create a Profile, Voucher, Transactions and Create a Cap Views.
+                </small>
+              </div>
             </div>
           </div>
 
-          <!--BUKALAPAK.COM-->
-          <div class="u-p--hero lh0 mb4">
-            <div class="time">
-              Oct 2016 - Today
-            </div>
-            <div>
-              PT. Bukalapak.com
-            </div>
-            <div>
-              <small class="mt0">
-                <em>Frontend Engineer</em>
-              </small>
-            </div>
-            <div class="mt2">
-              <small>
-                In Bukalapak I focus built and maintenance at seller side but before transactions such as <em>create product</em>, <em>product list</em> etc. I develop previously using jQuery and Coffescript, but now already use <a href="https://vuejs.org">VueJS</a>.
-              </small>
-            </div>
-          </div>
-
-          <!-- ShoutCap -->
-          <div class="u-p--hero lh0 mb4">
-            <div class="time">
-              Jul 2015 - Sep 2015
-            </div>
-            <div>
-              ShoutID
-            </div>
-            <div>
-              <small class="mt0">
-                <em>Frontend Engineer Internship</em>
-              </small>
-            </div>
-            <div class="mt2">
-              <small>
-                I develop iOS ShoutCap App using <a href="http://ionicframework.com">Ionic Frameworkd</a> and create a Profile, Voucher, Transactions and Create a Cap Views.
-              </small>
-            </div>
-          </div>
-
-          <!--CODELABS.COM-->
-          <div class="u-p--hero lh0">
-            <div class="time">
-              Dec 2012 - Sep 2016
-            </div>
-            <div>
-              Unikom Codelabs Division
-            </div>
-            <div>
-              <small class="mt0">
-                <em>Fullstack Javascript</em>
-              </small>
-            </div>
-            <div class="mt2">
-              <small>
-                In Codelabs i do some reasearch for competition focus on Javascript technology and maintenance some internal websites.
-              </small>
+          <div class="row mb4">
+            <!--CODELABS.COM-->
+            <div class="six columns u-p--hero lh0">
+              <div class="time">
+                Dec 2012 - Sep 2016
+              </div>
+              <div>
+                Unikom Codelabs Division
+              </div>
+              <div>
+                <small class="mt0">
+                  <em>Fullstack Javascript</em>
+                </small>
+              </div>
+              <div class="mt2">
+                <small>
+                  In Codelabs i do some reasearch for competition focus on Javascript technology and maintenance some internal websites.
+                </small>
+              </div>
             </div>
           </div>
         </div>
@@ -279,11 +289,27 @@ export default {
 @media only screen and (min-width: 960px) {
   .scroll-indicator {
     position: absolute;
-    height: 50px;
-    width: 1px;
-    background-color: #1f1f1f;
-    bottom: 0;
+    bottom: 10px;
     left: 50%;
+    animation: updown 1s infinite alternate;
+    -webkit-animation: updown 1s infinite alternate;
+  }
+}
+
+@-webkit-keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
   }
 }
 </style>

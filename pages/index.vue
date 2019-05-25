@@ -10,7 +10,7 @@
             I'm Muhammad Rivki,
           </h1>
           <h2 class="ma0">
-            currently i'm a Frontend Engineer at&nbsp;<a
+            Frontend Engineer at&nbsp;<a
               href="https://bukalapak.com"
               title="Bukalapak"
             >
@@ -18,7 +18,7 @@
             </a>
           </h2>
           <h2 class="ma0">
-            and i love
+            who love
             <span
               class="txt-rotate"
               data-period="5000"
@@ -31,26 +31,30 @@
               target="_blank"
               class="facebook"
             >
-              Facebook
-            </a>, <a
+            Facebook</a>,
+            <a
+              href="https://instagram.com/mikqii"
+              target="_blank"
+              class="github"
+            >
+            Instagram</a>,
+            <a
               href="https://twitter.com/__mikqi"
               target="_blank"
               class="twitter"
             >
-              Twitter
-            </a>, <a
+            Twitter</a>,
+            <a
               href="https://www.linkedin.com/in/muhammadrivki/"
               target="_blank"
               class="linkedin"
             >
-              LinkedIn
-            </a> and <a
+            LinkedIn</a> and
+            <a
               href="https://github.com/mikqi"
               target="_blank"
               class="github"
-            >
-              GitHub
-            </a>.
+            >GitHub</a>.
           </p>
         </div>
       </div>

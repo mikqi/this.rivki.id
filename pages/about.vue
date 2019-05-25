@@ -15,10 +15,10 @@
           >
         </div>
         <div class="eight columns">
-          <h4 class="ma0">
+          <h3 class="ma0">
             Hello.
-          </h4>
-          <h5><em>– </em></h5>
+          </h3>
+          <h5><em>–- </em></h5>
 
           <p class="u-p--hero">
             I am Rivki, but my friend sometimes call me Ikki (e'ki). A Frontend Engineer who love simplicity, great performance in the good looking products that I made. Currently I am working at the most growing e-commerce company in Indonesia,
@@ -26,12 +26,14 @@
               href="https://bukalapak.com/"
               target="_blank"
             >
-              Bukalapak
-            </a>.
+              Bukalapak.
+            </a>
           </p>
 
           <p class="u-p--hero">
-            My passionate is about web technology such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me just say "Hi!" <a href="mailto:muhammad.rivki@live.com">
+            My passionate is about web technology such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me just say "Hi!" <a
+              target="_blank"
+              href="mailto:muhammad.rivki@live.com">
               here.
             </a>
           </p>
@@ -42,7 +44,7 @@
       <div class="row u-full-width mb6">
         <div class="offset-by-one ten columns mb6">
           <h5 class="ma0 mb4">
-            <em>– WORKING EXPERIENCES</em>
+            <em>– EXPERIENCES</em>
           </h5>
           <div class="row mb4">
             <!--BUKALAPAK.COM FTL-->
@@ -58,9 +60,11 @@
                   <em>Frontend Tribe Lead</em>
                 </small>
               </div>
-              <div class="mt2">
+              <div class="mt3 pr4">
                 <small>
-                  Bukalapak use <a href="https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761">Spotify Engineering Culture</a> and on this position I focus to remove knowledge gap with other tribes and to keep my Tribe code quality is good.
+                  Bukalapak use <a
+                    target="_blank"
+                    href="https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761">Spotify Engineering Culture</a> and on this position I focus to remove knowledge gap with other tribes and to keep my Tribe code quality is good.
                 </small>
               </div>
             </div>
@@ -78,7 +82,7 @@
                   <em>Frontend Engineer Squad Lead</em>
                 </small>
               </div>
-              <div class="mt2">
+              <div class="mt3 pr4">
                 <small>
                   As a lead i responsible to made my squad code quality better with code reviews and also handle for deployment my squad product to production with less bug.
                 </small>
@@ -100,9 +104,11 @@
                   <em>Frontend Engineer</em>
                 </small>
               </div>
-              <div class="mt2">
+              <div class="mt3 pr4">
                 <small>
-                  In Bukalapak I focus built and maintenance at seller side but before transactions such as <em>create product</em>, <em>product list</em> etc. I develop previously using jQuery and Coffescript, but now already use <a href="https://vuejs.org">VueJS</a>.
+                  In Bukalapak I focus built and maintenance at seller side but before transactions such as <em>create product</em>, <em>product list</em> etc. I develop previously using jQuery and Coffescript, but now already use <a
+                    target="_blank"
+                    href="https://vuejs.org">VueJS</a>.
                 </small>
               </div>
             </div>
@@ -120,9 +126,11 @@
                   <em>Frontend Engineer Intern</em>
                 </small>
               </div>
-              <div class="mt2">
+              <div class="mt3 pr4">
                 <small>
-                  I develop iOS ShoutCap App using <a href="http://ionicframework.com">Ionic Framework</a> and create a Profile, Voucher, Transactions and Create a Cap Views.
+                  I develop iOS ShoutCap App using <a
+                    target="_blank"
+                    href="http://ionicframework.com">Ionic Framework</a> and create a Profile, Voucher, Transactions and Create a Cap Views.
                 </small>
               </div>
             </div>
@@ -142,7 +150,7 @@
                   <em>Fullstack Javascript</em>
                 </small>
               </div>
-              <div class="mt2">
+              <div class="mt3 pr4">
                 <small>
                   In Codelabs i do some reasearch for competition focus on Javascript technology and maintenance some internal websites.
                 </small>
@@ -151,38 +159,135 @@
           </div>
         </div>
 
+        <!-- PROJECTS -->
+        <div
+          v-if="isProjects"
+          class="offset-by-one ten columns mb6"
+        >
+          <div class="twelve columns">
+            <h5 class="ma0 mb4">
+              <em>– PROJECTS</em>
+            </h5>
+
+            <!--Seller Center-->
+            <div class="u-p--hero lh0 mb5">
+              <div class="time">
+                October 2018
+              </div>
+              <div>
+                Component Library Bukalapak
+              </div>
+              <div class="mt3">
+                <small>
+                  Parallel with develop Seller Center, I and my team designing reuseable components from Seller Center. After that we move it to our internal npm registry to share with other engineer and now the project has been moved to Core Frontend.
+                </small>
+              </div>
+            </div>
+
+            <!--Seller Center-->
+            <div class="u-p--hero lh0 mb5">
+              <div class="time">
+                March 2018
+              </div>
+              <div>
+                Seller Center Bukalapak
+              </div>
+              <div class="mt3">
+                <small>
+                  I lead the team to develop <a href="https://seller.bukalapak.com">Seller Center Bukalapak</a>. I make standard for the the code to make it clean and also develop the server and client. It used <a href="https://nuxtjs.org">Nuxt.js</a>, so the server side use NodeJS + ExpressJS and the client side use VueJS. This project is recreate features from legacy codebase to the new stack. I responsible for stability and maintainabilty the code.
+                </small>
+              </div>
+            </div>
+
+            <!--7 Pagi Dashboard-->
+            <div class="u-p--hero lh0 mb5">
+              <div class="time">
+                January 2017
+              </div>
+              <div>
+                7 Pagi
+              </div>
+              <div class="mt3">
+                <small>
+                  Create a dashboard for <a
+                    href="https://id.techinasia.com/7pagi-platform-interaksi-antara-guru-dan-orang-tua-siswa"
+                    target="_blank">7 Pagi</a> startup. I work in backend and frontend side and both of that used JavaScript. NodeJS and Express for backend and AngularJS for frontend also use azure hosting.
+                </small>
+              </div>
+            </div>
+
+            <!--Twikipedia-->
+            <div class="u-p--hero lh0 mb5">
+              <div class="time">
+                March 2016
+              </div>
+              <div>
+                Twikipedia
+              </div>
+              <div class="mt3">
+                <small>
+                  I develop a marketing solution web apps for who runs the busniess in Twitter. I use sentiment analysis and machine learning for categorized the user based on their tweets and the web built with NodeJS for server side and AngularJS for the client. You can read detail about my research <a
+                    target="_blank"
+                    href="http://jsi.cs.ui.ac.id/index.php/jsi/article/download/500/342/">here</a>.
+                </small>
+              </div>
+            </div>
+
+            <!--Dodo Kids-->
+            <div class="u-p--hero lh0 mb5">
+              <div class="time">
+                March 2015
+              </div>
+              <div>
+                Dodo Kids Browser
+              </div>
+              <div class="mt3">
+                <small>
+                  I create an extension browser for our apps, and i do design too. Dodo Kids Browser is a parenting controlling apps. Which is have two frontend. First in Windows Phone, and second on extension browser.
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- ACHIEVEMENTS -->
         <div class="offset-by-one ten columns">
           <h5 class="ma0 mb4">
             <em>– ACHIEVEMENTS</em>
           </h5>
-          <div class="u-p--hero lh0 mb4">
+          I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets.
+          <div class="u-p--hero lh0 mb5">
             <div class="time">
               May 2018
             </div>
             <div>
               Facebook F8 Hakcathon Participation
             </div>
-            <div class="mt2">
+            <div class="mt3">
               <small>
-                I've invited by Facebook to become a participant F8 Hackathon in McEnery Convention Center, San Jose. There was three people in my team with one Backend, Frontend and Business Analyst. And of course the Frontend role is Me. We built an apps focus on helping a community you can check it <a href="https://devpost.com/software/komun-ally">here</a>.
+                I've invited by Facebook to become a participant F8 Hackathon in McEnery Convention Center, San Jose. There was three people in my team with one Backend, Frontend and Business Analyst. And of course the Frontend role is Me. We built an apps focus on helping a community you can check it <a
+                  target="_blank"
+                  href="https://devpost.com/software/komun-ally">here</a>.
               </small>
             </div>
           </div>
 
           <!--IMAGINE CUP 2017-->
-          <div class="u-p--hero lh0 mb4">
+          <div class="u-p--hero lh0 mb5">
             <div class="time">
               March 2017
             </div>
             <div>
               Semi Finalist Microsoft Imagine Cup Indonesia 2017
             </div>
-            <div class="mt2">
+            <div class="mt3">
               <small>
-                I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets. With codename <a href="http://sellution.azurewebsites.net/"> Sellution
-                </a> or <a href="http://twikipedia-apps.herokuapp.com">
+                I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets. With codename <a
+                  target="_blank"
+                  href="http://sellution.azurewebsites.net/"> Sellution
+                </a> or <a
+                  target="_blank"
+                  href="http://twikipedia-apps.herokuapp.com">
                   Twikipedia
                 </a>.
               </small>
@@ -190,18 +295,22 @@
           </div>
 
           <!--IMAGINE CUP 2015-->
-          <div class="u-p--hero lh0 mb4">
+          <div class="u-p--hero lh0 mb5">
             <div class="time">
               May 2015
             </div>
             <div>
               1<sup>st</sup> Winner Microsoft Imagine Cup Indonesia 2016
             </div>
-            <div class="mt2">
+            <div class="mt3">
               <small>
-                We built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category. We won in first place in <a href="https://dailysocial.id/post/pemenang-imagine-cup-indonesia-2015">
+                I built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category. We won in first place in <a
+                  target="_blank"
+                  href="https://dailysocial.id/post/pemenang-imagine-cup-indonesia-2015">
                   Indonesia
-                </a> and get the chance to <a href="https://imagine.microsoft.com/en-us/Winner/2015WorldSemifinalists">
+                </a> and get the chance to <a
+                  target="_blank"
+                  href="https://imagine.microsoft.com/en-us/Winner/2015WorldSemifinalists">
                   world semifinals
                 </a>.
               </small>
@@ -209,16 +318,18 @@
           </div>
 
           <!--IMAGINE CUP 2018-->
-          <div class="u-p--hero lh0 mb4">
+          <div class="u-p--hero lh0 mb5">
             <div class="time">
               April 2018
             </div>
             <div>
               Nominator INAICTA 2014
             </div>
-            <div class="mt2">
+            <div class="mt3">
               <small>
-                We develop apps citizen journalism about crime. With codename <a href="http://if.unikom.ac.id/web/prestasi.php">
+                We develop apps citizen journalism about crime. With codename <a
+                  target="_blank"
+                  href="http://if.unikom.ac.id/web/prestasi.php">
                   Crimezone
                 </a>. My role in team as a Frontend and UX.
               </small>
@@ -227,33 +338,6 @@
         </div>
       </div>
 
-      <hr v-if="isProjects">
-
-      <!-- PROJECTS -->
-      <div
-        v-if="isProjects"
-        class="row u-full-width mb6 mt4"
-      >
-        <div class="twelve columns">
-          <h5 class="ma0 mb4">
-            <em>– PROJECTS</em>
-          </h5>
-          <!--BUKALAPAK.COM-->
-          <p class="u-p--hero lh0 mb-2">
-            <small class="time">
-              2016 - Today
-            </small>
-            <br>
-            <span>
-              PT. Bukalapak.com
-            </span>
-            <br>
-          </p>
-          <p class="mt2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus, animi nemo sint cupiditate, totam at, perspiciatis libero magni ab recusandae! Quasi suscipit, magnam cupiditate obcaecati similique officia quia nesciunt.
-          </p>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -263,7 +347,7 @@ export default {
   name: 'About',
   data() {
     return {
-      isProjects: false
+      isProjects: true
     }
   }
 }

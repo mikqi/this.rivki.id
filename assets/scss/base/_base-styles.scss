@@ -21,8 +21,10 @@ body {
 
 a {
   color: $link-color;
+  transition: ease 0.2s;
   &:hover {
-    color: darken($link-color, 20%);
+    transition: ease 0.2s;
+    color: darken($primary-color, 20%);
   }
 }
 

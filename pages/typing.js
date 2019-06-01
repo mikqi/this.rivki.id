@@ -56,6 +56,6 @@ window.runTextRotator = function() {
   // INJECT CSS
   const css = document.createElement(`style`)
   css.type = `text/css`
-  css.innerHTML = `.txt-rotate > .wrap { border-right: 0.08em solid #2199e8; color: #2199e8}`
+  css.innerHTML = `.txt-rotate > .wrap { border-right: 0.08em solid #fee994; color: #fee994}`
   document.body.appendChild(css)
 }

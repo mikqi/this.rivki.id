@@ -228,6 +228,6 @@ li a {
 }
 
 li a:hover {
-  color: #2199e8;
+  color: #fee994;
 }
 </style>

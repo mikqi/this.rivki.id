@@ -58,7 +58,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#2199e8' },
+  loading: { color: '#fee994' },
 
   /*
   ** Global CSS
@@ -119,6 +119,6 @@ module.exports = {
     }
   },
   manifest: {
-    theme_color: '#2199e8'
+    theme_color: '#fee994'
   }
 }

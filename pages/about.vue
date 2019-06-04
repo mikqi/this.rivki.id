@@ -370,8 +370,15 @@ export default {
   line-height: 2.5;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 320px) {
   .scroll-indicator {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .scroll-indicator {
+    display: inline;
     position: absolute;
     bottom: 10px;
     left: 50%;

@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Poppins', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /**
@@ -67,6 +68,13 @@ pre {
 
 a {
   background-color: transparent;
+  color: #000;
+  transition: ease 0.2s;
+}
+
+a:hover {
+  transition: ease 0.2s;
+  color: #fee994;
 }
 
 /**

@@ -65,7 +65,7 @@ module.exports = {
   */
   css: [
     {
-      src: '@/assets/scss/skeleton.scss',
+      src: '@/assets/styles/index.scss',
       lang: 'scss'
     },
     '@/assets/css/main.css'

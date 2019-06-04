@@ -5,10 +5,10 @@
         <p class="f2 fw1 mb4">
           Hello.
         </p>
-        <h1 class="f1-m f1-l f4-ns ma0">
+        <h1 class="f1-m f1-l f2-ns ma0">
           I'm Muhammad Rivki,
         </h1>
-        <h2 class="f2 fw1 ma0 lh-copy">
+        <h2 class="f2-m f2-l f3-ns fw1 ma0 lh-copy">
           Frontend Engineer at&nbsp;<a
             href="https://bukalapak.com"
             title="Bukalapak"
@@ -16,7 +16,7 @@
             Bukalapak
           </a>
         </h2>
-        <h2 class="f2 fw1 ma0 lh-copy">
+        <h2 class="f2-m f2-l f3-ns fw1 ma0 lh-copy">
           who love
           <span
             class="txt-rotate"
@@ -24,35 +24,35 @@
             data-rotate="[ &quot;JavaScript.&quot;, &quot;chocolate.&quot;, &quot;classical music.&quot;, &quot;of course cat!!!!&quot; ]"
           />
         </h2>
-        <p class="f4 mt4 fw1 lh-copy tracked-sm">
+        <p class="f4-m f4-l f5-ns mt4 fw1 lh-copy tracked-sm">
           I spend most of my day working with the frontend things and read articles at feedly. You can find me on <a
             href="https://facebook.com/this.mikqi"
             target="_blank"
-            class="facebook"
+            class="underline facebook"
           >
           Facebook</a>,
           <a
             href="https://instagram.com/mikqii"
             target="_blank"
-            class="github"
+            class="underline github"
           >
           Instagram</a>,
           <a
             href="https://twitter.com/__mikqi"
             target="_blank"
-            class="twitter"
+            class="underline twitter"
           >
           Twitter</a>,
           <a
             href="https://www.linkedin.com/in/muhammadrivki/"
             target="_blank"
-            class="linkedin"
+            class="underline linkedin"
           >
           LinkedIn</a> and
           <a
             href="https://github.com/mikqi"
             target="_blank"
-            class="github"
+            class="underline github"
           >GitHub</a>.
         </p>
       </div>

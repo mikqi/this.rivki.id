@@ -67,7 +67,7 @@
 .w-two-thirds { width: calc(100% / 1.5); }
 .w-auto { width: auto; }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 20em) {
   .w1-ns {  width: 1rem; }
   .w2-ns {  width: 2rem; }
   .w3-ns {  width: 4rem; }
@@ -92,7 +92,7 @@
   .w-auto-ns { width: auto; }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .w1-m {      width: 1rem; }
   .w2-m {      width: 2rem; }
   .w3-m {      width: 4rem; }
@@ -117,7 +117,7 @@
   .w-auto-m {    width: auto; }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .w1-l {      width: 1rem; }
   .w2-l {      width: 2rem; }
   .w3-l {      width: 4rem; }

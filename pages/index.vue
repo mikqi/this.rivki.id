@@ -1,11 +1,11 @@
 <template>
   <section class="section hero">
-    <div class="flex vh-100 w-60 center justify-center items-center">
+    <div class="flex vh-100 w-60-l w-90-ns center justify-center items-center">
       <div>
         <p class="f2 fw1 mb4">
           Hello.
         </p>
-        <h1 class="f1 ma0">
+        <h1 class="f1-m f1-l f4-ns ma0">
           I'm Muhammad Rivki,
         </h1>
         <h2 class="f2 fw1 ma0 lh-copy">

@@ -1,11 +1,12 @@
 <template>
-  <footer class="flex justify-center pa5">
-    <p class="ma0">
-      Built with <span class="love">
-        ❤
-      </span>︎ and some chocolates
-      <br>
-      <span>Muhammad Rivki © 2019</span>
+  <footer class="flex justify-center pt5 pb3">
+    <p class="ma0 flex flex-column items-center">
+      <span>
+        Built with <span class="love">
+          ❤
+        </span>︎ and some chocolates
+      </span>
+      <span class="mt1">Muhammad Rivki © 2019</span>
     </p>
   </footer>
 </template>

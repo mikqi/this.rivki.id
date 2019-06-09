@@ -6,7 +6,9 @@
         width="50"
       >
     </div>
+
     <div>
+      <!-- MAIN CONTENT ABOUT -->
       <div class="flex flex-column vh-100-l vh-100-m w-70-m w-50-l w-90-ns center justify-center items-center-l items-center-m">
         <div class="flex flex-column-ns flex-row-m flex-row-l mb4 mb0-ns mt6-ns">
           <img
@@ -39,28 +41,30 @@
           </p>
         </div>
       </div>
+      <!-- END MAIN HEAD ABOUT -->
 
       <!-- EXPERIENCES AND ACHIEVEMENTS -->
-      <div class="row u-full-width mb6">
-        <div class="offset-by-one ten columns mb6">
-          <h5 class="ma0 mb4">
+      <div>
+        <!-- EXPERIENCES -->
+        <div class="flex flex-column w-70-m w-50-l w-90-ns center justify-start items-start-l items-start-m mb4">
+          <h5 class="ma0 mb4 f3 self-start">
             <em>– EXPERIENCES</em>
           </h5>
-          <div class="row mb4">
+          <div class="flex-l flex-m mb3">
             <!--BUKALAPAK.COM FTL-->
-            <div class="six columns lh0 mb4">
-              <div class="time">
+            <div class="lh0 mb3 w-50-l w-50-m">
+              <div class="lh-copy light-silver f6">
                 Oct 2018 - Today
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 PT. Bukalapak.com
               </div>
               <div>
-                <small class="mt0">
+                <small class="lh-copy f6">
                   <em>Frontend Tribe Lead</em>
                 </small>
               </div>
-              <div class="mt3 pr4">
+              <div class="mt3 lh-copy f4 fw1 pr2">
                 <small>
                   Bukalapak use <a
                     target="_blank"
@@ -70,19 +74,19 @@
             </div>
 
             <!--BUKALAPAK.COM FTL-->
-            <div class="six columns lh0 mb4">
-              <div class="time">
+            <div class="lh0 mb3 w-50-l w-50-m">
+              <div class="lh-copy light-silver f6">
                 Apr 2018 - Today
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 PT. Bukalapak.com
               </div>
               <div>
-                <small class="mt0">
+                <small class="lh-copy f6">
                   <em>Frontend Engineer Squad Lead</em>
                 </small>
               </div>
-              <div class="mt3 pr4">
+              <div class="mt3 lh-copy f4 fw1 pr2">
                 <small>
                   As a lead i responsible to made my squad code quality better with code reviews and also handle for deployment my squad product to production with less bug.
                 </small>
@@ -90,21 +94,21 @@
             </div>
           </div>
 
-          <div class="row mb4">
+          <div class="flex-l flex-m mb3">
             <!--BUKALAPAK.COM-->
-            <div class="six columns lh0 mb4">
-              <div class="time">
+            <div class="lh0 mb3 w-50-l w-50-m">
+              <div class="lh-copy light-silver f6">
                 Oct 2016 - Today
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 PT. Bukalapak.com
               </div>
               <div>
-                <small class="mt0">
+                <small class="lh-copy f6">
                   <em>Frontend Engineer</em>
                 </small>
               </div>
-              <div class="mt3 pr4">
+              <div class="mt3 lh-copy f4 fw1 pr2">
                 <small>
                   In Bukalapak I focus built and maintenance at seller side but before transactions such as <em>create product</em>, <em>product list</em> etc. I develop previously using jQuery and Coffescript, but now already use <a
                     target="_blank"
@@ -114,19 +118,19 @@
             </div>
 
             <!-- ShoutCap -->
-            <div class="six columns lh0 mb4">
-              <div class="time">
+            <div class="lh0 mb3 w-50-l w-50-m">
+              <div class="lh-copy light-silver f6">
                 Jul 2015 - Sep 2015
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 ShoutID
               </div>
               <div>
-                <small class="mt0">
+                <small class="lh-copy f6">
                   <em>Frontend Engineer Intern</em>
                 </small>
               </div>
-              <div class="mt3 pr4">
+              <div class="mt3 lh-copy f4 fw1 pr2">
                 <small>
                   I develop iOS ShoutCap App using <a
                     target="_blank"
@@ -136,21 +140,21 @@
             </div>
           </div>
 
-          <div class="row mb4">
+          <div class="flex-l flex-m mb3">
             <!--CODELABS.COM-->
-            <div class="six columns lh0">
-              <div class="time">
+            <div class="lh0 mb3 w-50-l w-50-m">
+              <div class="lh-copy light-silver f6">
                 Dec 2012 - Sep 2016
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 Unikom Codelabs Division
               </div>
               <div>
-                <small class="mt0">
+                <small class="lh-copy f6">
                   <em>Fullstack Javascript</em>
                 </small>
               </div>
-              <div class="mt3 pr4">
+              <div class="mt3 lh-copy f4 fw1 pr2">
                 <small>
                   In Codelabs i do some reasearch for competition focus on Javascript technology and maintenance some internal websites.
                 </small>
@@ -158,26 +162,27 @@
             </div>
           </div>
         </div>
+        <!-- END EXPERIENCES -->
 
         <!-- PROJECTS -->
         <div
           v-if="isProjects"
-          class="offset-by-one ten columns mb6"
+          class="flex flex-column w-70-m w-50-l w-90-ns center justify-start items-start-l items-start-m mb4"
         >
-          <div class="twelve columns">
-            <h5 class="ma0 mb4">
+          <div>
+            <h5 class="ma0 mb4 f3 self-start">
               <em>– PROJECTS</em>
             </h5>
 
             <!--Seller Center-->
-            <div class="lh0 mb5">
-              <div class="time">
+            <div class="lh0 mb3">
+              <div class="lh-copy light-silver f6">
                 October 2018
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 Component Library Bukalapak
               </div>
-              <div class="mt3">
+              <div class="mt3 lh-copy f4 fw1">
                 <small>
                   Parallel with develop Seller Center, I and my team designing reuseable components from Seller Center. After that we move it to our internal npm registry to share with other engineer and now the project has been moved to Core Frontend.
                 </small>
@@ -185,14 +190,14 @@
             </div>
 
             <!--Seller Center-->
-            <div class="lh0 mb5">
-              <div class="time">
+            <div class="lh0 mb3">
+              <div class="lh-copy light-silver f6">
                 March 2018
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 Seller Center Bukalapak
               </div>
-              <div class="mt3">
+              <div class="mt3 lh-copy f4 fw1">
                 <small>
                   I lead the team to develop <a href="https://seller.bukalapak.com">Seller Center Bukalapak</a>. I make standard for the the code to make it clean and also develop the server and client. It used <a href="https://nuxtjs.org">Nuxt.js</a>, so the server side use NodeJS + ExpressJS and the client side use VueJS. This project is recreate features from legacy codebase to the new stack. I responsible for stability and maintainabilty the code.
                 </small>
@@ -200,14 +205,14 @@
             </div>
 
             <!--7 Pagi Dashboard-->
-            <div class="lh0 mb5">
-              <div class="time">
+            <div class="lh0 mb3">
+              <div class="lh-copy light-silver f6">
                 January 2017
               </div>
-              <div>
-                7 Pagi
+              <div class="lh-copy mv1">
+                7 Pagi Dashboard
               </div>
-              <div class="mt3">
+              <div class="mt3 lh-copy f4 fw1">
                 <small>
                   Create a dashboard for <a
                     href="https://id.techinasia.com/7pagi-platform-interaksi-antara-guru-dan-orang-tua-siswa"
@@ -217,14 +222,14 @@
             </div>
 
             <!--Twikipedia-->
-            <div class="lh0 mb5">
-              <div class="time">
+            <div class="lh0 mb3">
+              <div class="lh-copy light-silver f6">
                 March 2016
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 Twikipedia
               </div>
-              <div class="mt3">
+              <div class="mt3 lh-copy f4 fw1">
                 <small>
                   I develop a marketing solution web apps for who runs the busniess in Twitter. I use sentiment analysis and machine learning for categorized the user based on their tweets and the web built with NodeJS for server side and AngularJS for the client. You can read detail about my research <a
                     target="_blank"
@@ -234,14 +239,14 @@
             </div>
 
             <!--Dodo Kids-->
-            <div class="lh0 mb5">
-              <div class="time">
+            <div class="lh0 mb3">
+              <div class="lh-copy light-silver f6">
                 March 2015
               </div>
-              <div>
+              <div class="lh-copy mv1">
                 Dodo Kids Browser
               </div>
-              <div class="mt3">
+              <div class="mt3 lh-copy f4 fw1">
                 <small>
                   I create an extension browser for our apps, and i do design too. Dodo Kids Browser is a parenting controlling apps. Which is have two frontend. First in Windows Phone, and second on extension browser.
                 </small>
@@ -249,21 +254,21 @@
             </div>
           </div>
         </div>
+        <!-- END PROJECTS -->
 
         <!-- ACHIEVEMENTS -->
-        <div class="offset-by-one ten columns">
-          <h5 class="ma0 mb4">
+        <div class="flex flex-column w-70-m w-50-l w-90-ns center justify-start items-start-l items-start-m pb4">
+          <h5 class="ma0 mb4 f3 self-start">
             <em>– ACHIEVEMENTS</em>
           </h5>
-          I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets.
-          <div class="lh0 mb5">
-            <div class="time">
+          <div class="lh0 mb3">
+            <div class="lh-copy light-silver f6">
               May 2018
             </div>
-            <div>
+            <div class="lh-copy mv1">
               Facebook F8 Hakcathon Participation
             </div>
-            <div class="mt3">
+            <div class="mt3 lh-copy f4 fw1">
               <small>
                 I've invited by Facebook to become a participant F8 Hackathon in McEnery Convention Center, San Jose. There was three people in my team with one Backend, Frontend and Business Analyst. And of course the Frontend role is Me. We built an apps focus on helping a community you can check it <a
                   target="_blank"
@@ -273,14 +278,14 @@
           </div>
 
           <!--IMAGINE CUP 2017-->
-          <div class="lh0 mb5">
-            <div class="time">
+          <div class="lh0 mb3">
+            <div class="lh-copy light-silver f6">
               March 2017
             </div>
-            <div>
+            <div class="lh-copy mv1">
               Semi Finalist Microsoft Imagine Cup Indonesia 2017
             </div>
-            <div class="mt3">
+            <div class="mt3 lh-copy f4 fw1">
               <small>
                 I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets. With codename <a
                   target="_blank"
@@ -295,14 +300,14 @@
           </div>
 
           <!--IMAGINE CUP 2015-->
-          <div class="lh0 mb5">
-            <div class="time">
+          <div class="lh0 mb3">
+            <div class="lh-copy light-silver f6">
               May 2015
             </div>
-            <div>
+            <div class="lh-copy mv1">
               1<sup>st</sup> Winner Microsoft Imagine Cup Indonesia 2016
             </div>
-            <div class="mt3">
+            <div class="mt3 lh-copy f4 fw1">
               <small>
                 I built parenting control apps that integrate parent device and browser. Parent can see what are kids open in a browser and give an action to block a website if parent doesn't want the kid to open that website. And we win in Innovation Category. We won in first place in <a
                   target="_blank"
@@ -318,14 +323,14 @@
           </div>
 
           <!--IMAGINE CUP 2018-->
-          <div class="lh0 mb5">
-            <div class="time">
+          <div class="lh0 mb3">
+            <div class="lh-copy light-silver f6">
               April 2018
             </div>
-            <div>
+            <div class="lh-copy mv1">
               Nominator INAICTA 2014
             </div>
-            <div class="mt3">
+            <div class="mt3 lh-copy f4 fw1">
               <small>
                 We develop apps citizen journalism about crime. With codename <a
                   target="_blank"
@@ -336,6 +341,7 @@
             </div>
           </div>
         </div>
+        <!-- END ACHIEVEMENTS -->
       </div>
 
     </div>

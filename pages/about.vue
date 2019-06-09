@@ -6,21 +6,21 @@
         width="50"
       >
     </div>
-    <div class="container u-full-width u-full-height mt7">
-      <div class="section row u-full-width u-full-height">
-        <div class="three columns u-align-center mb5">
+    <div>
+      <div class="flex flex-column vh-100-l vh-100-m w-70-m w-50-l w-90-ns center justify-center items-center-l items-center-m">
+        <div class="flex flex-column-ns flex-row-m flex-row-l mb4 mb0-ns mt6-ns">
           <img
-            class="avatar"
+            class="avatar self-center-ns"
             src="@/static/img/ava.jpg"
           >
+          <h3 class="flex flex-column self-end-l self-end-m self-start-ns ml4-l ml4-m mt4-ns f2 ma0 fw4">
+            Hello.
+            <span class="f2 ma0"><em>—</em></span>
+          </h3>
         </div>
         <div class="eight columns">
-          <h3 class="ma0">
-            Hello.
-          </h3>
-          <h5><em>–- </em></h5>
 
-          <p class="u-p--hero">
+          <p class="f4 gray fw1 tracked-sm lh-copy mt0">
             I am Rivki, but my friend sometimes call me Ikki (e'ki). A Frontend Engineer who love simplicity, great performance in the good looking products that I made. Currently I am working at the most growing e-commerce company in Indonesia,
             <a
               href="https://bukalapak.com/"
@@ -30,7 +30,7 @@
             </a>
           </p>
 
-          <p class="u-p--hero">
+          <p class="f4 gray fw1 tracked-sm lh-copy">
             My passionate is about web technology such as Javascript, Chrome Developer Tools, React, React Native, VueJS and many more. If you want to know more about me just say "Hi!" <a
               target="_blank"
               href="mailto:muhammad.rivki@live.com">
@@ -48,7 +48,7 @@
           </h5>
           <div class="row mb4">
             <!--BUKALAPAK.COM FTL-->
-            <div class="six columns u-p--hero lh0 mb4">
+            <div class="six columns lh0 mb4">
               <div class="time">
                 Oct 2018 - Today
               </div>
@@ -70,7 +70,7 @@
             </div>
 
             <!--BUKALAPAK.COM FTL-->
-            <div class="six columns u-p--hero lh0 mb4">
+            <div class="six columns lh0 mb4">
               <div class="time">
                 Apr 2018 - Today
               </div>
@@ -92,7 +92,7 @@
 
           <div class="row mb4">
             <!--BUKALAPAK.COM-->
-            <div class="six columns u-p--hero lh0 mb4">
+            <div class="six columns lh0 mb4">
               <div class="time">
                 Oct 2016 - Today
               </div>
@@ -114,7 +114,7 @@
             </div>
 
             <!-- ShoutCap -->
-            <div class="six columns u-p--hero lh0 mb4">
+            <div class="six columns lh0 mb4">
               <div class="time">
                 Jul 2015 - Sep 2015
               </div>
@@ -138,7 +138,7 @@
 
           <div class="row mb4">
             <!--CODELABS.COM-->
-            <div class="six columns u-p--hero lh0">
+            <div class="six columns lh0">
               <div class="time">
                 Dec 2012 - Sep 2016
               </div>
@@ -170,7 +170,7 @@
             </h5>
 
             <!--Seller Center-->
-            <div class="u-p--hero lh0 mb5">
+            <div class="lh0 mb5">
               <div class="time">
                 October 2018
               </div>
@@ -185,7 +185,7 @@
             </div>
 
             <!--Seller Center-->
-            <div class="u-p--hero lh0 mb5">
+            <div class="lh0 mb5">
               <div class="time">
                 March 2018
               </div>
@@ -200,7 +200,7 @@
             </div>
 
             <!--7 Pagi Dashboard-->
-            <div class="u-p--hero lh0 mb5">
+            <div class="lh0 mb5">
               <div class="time">
                 January 2017
               </div>
@@ -217,7 +217,7 @@
             </div>
 
             <!--Twikipedia-->
-            <div class="u-p--hero lh0 mb5">
+            <div class="lh0 mb5">
               <div class="time">
                 March 2016
               </div>
@@ -234,7 +234,7 @@
             </div>
 
             <!--Dodo Kids-->
-            <div class="u-p--hero lh0 mb5">
+            <div class="lh0 mb5">
               <div class="time">
                 March 2015
               </div>
@@ -256,7 +256,7 @@
             <em>– ACHIEVEMENTS</em>
           </h5>
           I built a marketing solution apps in Twitter use sentiment analysis and categorized the user based on their tweets.
-          <div class="u-p--hero lh0 mb5">
+          <div class="lh0 mb5">
             <div class="time">
               May 2018
             </div>
@@ -273,7 +273,7 @@
           </div>
 
           <!--IMAGINE CUP 2017-->
-          <div class="u-p--hero lh0 mb5">
+          <div class="lh0 mb5">
             <div class="time">
               March 2017
             </div>
@@ -295,7 +295,7 @@
           </div>
 
           <!--IMAGINE CUP 2015-->
-          <div class="u-p--hero lh0 mb5">
+          <div class="lh0 mb5">
             <div class="time">
               May 2015
             </div>
@@ -318,7 +318,7 @@
           </div>
 
           <!--IMAGINE CUP 2018-->
-          <div class="u-p--hero lh0 mb5">
+          <div class="lh0 mb5">
             <div class="time">
               April 2018
             </div>

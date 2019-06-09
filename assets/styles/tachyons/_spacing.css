@@ -277,7 +277,7 @@
   margin-right: var(--spacing-extra-extra-extra-large);
 }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 20em) {
   .pa0-ns  {  padding: var(--spacing-none); }
   .pa1-ns {  padding: var(--spacing-extra-small); }
   .pa2-ns  {  padding: var(--spacing-small); }
@@ -501,7 +501,7 @@
 
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .pa0-m  {  padding: var(--spacing-none); }
   .pa1-m {  padding: var(--spacing-extra-small); }
   .pa2-m  {  padding: var(--spacing-small); }
@@ -726,7 +726,7 @@
 
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .pa0-l  {  padding: var(--spacing-none); }
   .pa1-l {  padding: var(--spacing-extra-small); }
   .pa2-l  {  padding: var(--spacing-small); }

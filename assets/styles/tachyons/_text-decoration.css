@@ -11,25 +11,25 @@
 
 */
 
-.strike       { text-decoration: line-through; }
-.underline    { text-decoration: underline; }
-.no-underline { text-decoration: none; }
+.strike       { text-decoration: line-through !important; }
+.underline    { text-decoration: underline !important; }
+.no-underline { text-decoration: none !important; }
 
 
-@media (--breakpoint-not-small) {
-  .strike-ns       { text-decoration: line-through; }
-  .underline-ns    { text-decoration: underline; }
-  .no-underline-ns { text-decoration: none; }
+@media screen and (min-width: 20em) {
+  .strike-ns       { text-decoration: line-through !important; }
+  .underline-ns    { text-decoration: underline !important; }
+  .no-underline-ns { text-decoration: none !important; }
 }
 
-@media (--breakpoint-medium) {
-  .strike-m       { text-decoration: line-through; }
-  .underline-m    { text-decoration: underline; }
-  .no-underline-m { text-decoration: none; }
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .strike-m       { text-decoration: line-through !important; }
+  .underline-m    { text-decoration: underline !important; }
+  .no-underline-m { text-decoration: none !important; }
 }
 
-@media (--breakpoint-large) {
-  .strike-l       { text-decoration: line-through; }
-  .underline-l {    text-decoration: underline; }
-  .no-underline-l { text-decoration: none; }
+@media screen and (min-width: 60em) {
+  .strike-l       { text-decoration: line-through !important; }
+  .underline-l {    text-decoration: underline !important; }
+  .no-underline-l { text-decoration: none !important; }
 }

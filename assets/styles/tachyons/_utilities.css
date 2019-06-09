@@ -22,7 +22,7 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@media (--breakpoint-not-small){
+@media screen and (min-width: 20em) {
   .center-ns {
     margin-right: auto;
     margin-left: auto;
@@ -31,7 +31,7 @@
   .ml-auto-ns { margin-left:  auto; }
 }
 
-@media (--breakpoint-medium){
+@media screen and (min-width: 30em) and (max-width: 60em){
   .center-m {
     margin-right: auto;
     margin-left: auto;
@@ -40,7 +40,7 @@
   .ml-auto-m { margin-left:  auto; }
 }
 
-@media (--breakpoint-large){
+@media screen and (min-width: 60em){
   .center-l {
     margin-right: auto;
     margin-left: auto;

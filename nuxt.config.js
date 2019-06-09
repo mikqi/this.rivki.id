@@ -49,7 +49,8 @@ module.exports = {
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Montserrat:700|Poppins'
+        href:
+          'https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap'
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]

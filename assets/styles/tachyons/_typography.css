@@ -46,7 +46,7 @@
   text-overflow: ellipsis;
 }
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 20em) {
   .measure-ns  {
     max-width: 30em;
   }
@@ -71,7 +71,7 @@
   }
 }
 
-@media (--breakpoint-medium) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .measure-m {
     max-width: 30em;
   }
@@ -96,7 +96,7 @@
   }
 }
 
-@media (--breakpoint-large) {
+@media screen and (min-width: 60em) {
   .measure-l {
     max-width: 30em;
   }

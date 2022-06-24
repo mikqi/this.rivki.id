@@ -23,7 +23,7 @@
     "nuxt": "^2.12.0",
     "tachyons": "^4.11.1",
     "velocity-animate": "^1.5.2",
-    "snyk": "^1.334.0"
+    "snyk": "^1.680.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
